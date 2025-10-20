@@ -1,0 +1,98 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e3f0ff 100%);
+  min-height: 100vh;
+}
+
+
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Bootstrap table custom colors */
+.table-primary {
+  background-color: #007bff !important;
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #e3f0ff;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #007bff !important;
+}
+
+/* Bootstrap button custom colors */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Headings */
+h2, .card-title {
+  color: #007bff;
+  font-weight: 700;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.nav-link.active {
+  color: #ffd700 !important;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,123,255,0.08);
+}
+
+/* Modals */
+.modal-content {
+  border-radius: 12px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
